@@ -225,6 +225,7 @@ ul {
 }
 .home-intro .intro-content .intro-image img {
     width: 100%;
+    border-radius: 50%;
 }
 
 /*about*/
@@ -243,7 +244,7 @@ ul {
     margin-bottom: 30px;
 }
 .about .content-right {
-    background: url(../images/about.png);
+    background: url(../images/bg-2.jpg);
     background-size: cover;
     background-position: 50% 100%;
     height: 100%;
@@ -445,7 +446,7 @@ ul {
     opacity: 1;
 }
 .portfolio .content-image img {
-    width: 100%;
+    width:  100%;
     border-radius: 3px;
 }
 .portfolio .content-image .portfolio-caption {
@@ -478,7 +479,7 @@ ul {
     transition-duration: .4s;
     transition-delay: .4s;
 }
-.portfolio .content-image .portfolio-caption .subtitle .subtitle-2 span {
+.portfolio .content-image .portfolio-caption .subtitle span {
     transition-duration: .1s;
     transition-delay: 700ms;
     opacity: 0;
@@ -499,6 +500,8 @@ ul {
 .tools {
     color: #fff;
 }
+
+/* MY STYLINGS */
 
 .pro-skill ul {
     list-style: none;
@@ -533,6 +536,14 @@ ul {
 .github {
     margin-right: 20px;
 }
+
+
+.img img {
+    width: 100%;
+    height: 200px; 
+}
+
+
 
 
 @keyframes titles {
